@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color:  rgb(238, 232, 220);
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(114, 114, 114);
+}
+
+.brand {
+    color: black;
+    padding: 2rem;
+    font-size: 25px;
+}
+
+.options {
+    padding: 2rem;
+}
+
+.options button {
+    background: #D3CCE3; 
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+    color: black;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.body-web {
+    display: flex;
+}
+
+.menu {
+    background-color: rgb(245, 234, 214);
+    width: 15vw;
+    height: 95vh;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(114, 114, 114);
+}
+
+.menu p:first-child{
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.content {
+    width: 85vw;
+    background-image: url("./img/study1.jpg");
+    background-size: cover;
+}
+
+
+
