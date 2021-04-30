@@ -39,6 +39,10 @@ describe('it`s tests in the Postgres', function(){
         delete result.id
         assert.deepStrictEqual(result, USER_DEFAULT)
     })
+    it('read all', async function() {
+        let result = await database.read()
+        assert.ok(true)
+    })
     it('update', async function() {
         let [user] = await database.read({username: USER_ATT.username})
         let user_att = {
